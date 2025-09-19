@@ -1,0 +1,321 @@
+type: collection.insomnia.rest/5.0
+name: Scratch Pad
+meta:
+  id: wrk_scratchpad
+  created: 1756466134653
+  modified: 1756466134653
+  description: ""
+collection:
+  - name: Biblioteca
+    meta:
+      id: fld_84394663debd49ac9df394d6a0a67613
+      created: 1756466384913
+      modified: 1756466384913
+      sortKey: -1756466384913
+      description: ""
+    children:
+      - name: Usuarios
+        meta:
+          id: fld_972d37187cec485b8b97ac6203a86e89
+          created: 1756466439980
+          modified: 1756466439980
+          sortKey: -1756466439980
+          description: ""
+      - name: Livros
+        meta:
+          id: fld_23f8096bc8a14cf7adf6a93a53201bbe
+          created: 1756476771536
+          modified: 1756476771536
+          sortKey: -1756476771536
+          description: ""
+  - name: Música
+    meta:
+      id: fld_e1bb405c486e42d7991c8d69792a934d
+      created: 1757092060582
+      modified: 1757092450855
+      sortKey: -1757092060582
+      description: ""
+    children:
+      - name: Músicas
+        meta:
+          id: fld_e502ffae504849a1b3fcd5de2b7f2ef1
+          created: 1757092366160
+          modified: 1757092366160
+          sortKey: -1757092366160
+          description: ""
+      - name: Playlist_Musicas
+        meta:
+          id: fld_c78631dafa064842834c1c36653d0da9
+          created: 1757092404397
+          modified: 1757092404397
+          sortKey: -1757092404397
+          description: ""
+      - name: Playlists
+        meta:
+          id: fld_88b35502d9a44d599a30ff8f4394af81
+          created: 1757092426148
+          modified: 1757092426148
+          sortKey: -1757092426148
+          description: ""
+      - name: Usuários
+        meta:
+          id: fld_b1b28100705b438286b8c5155d109244
+          created: 1757092439398
+          modified: 1757092439398
+          sortKey: -1757092439398
+          description: ""
+  - name: Prova
+    meta:
+      id: fld_77dc683d699b47e396b7b9501f1c5480
+      created: 1758283927639
+      modified: 1758283927639
+      sortKey: -1758283927640
+      description: ""
+    children:
+      - name: Produtos Vendidos
+        meta:
+          id: fld_b7a6025f99b64386aad1520f6b3f9ea0
+          created: 1758283963238
+          modified: 1758283963238
+          sortKey: -1758283963238
+          description: ""
+        children:
+          - url: http://localhost:3000/produtosvendidos
+            name: buscar
+            meta:
+              id: req_a63eff6d5a004b7a9a614134f4631e89
+              created: 1758288600770
+              modified: 1758290340383
+              isPrivate: false
+              description: ""
+              sortKey: -1758288600770
+            method: GET
+            headers:
+              - name: User-Agent
+                value: insomnia/11.5.0
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+          - url: http://localhost:3000/produtosvendidos/
+            name: alterar
+            meta:
+              id: req_d207490b6c6a4e21a751b7aa08629014
+              created: 1758288733455
+              modified: 1758292367629
+              isPrivate: false
+              description: ""
+              sortKey: -1758288733455
+            method: PUT
+            headers:
+              - name: User-Agent
+                value: insomnia/11.5.0
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+          - url: http://localhost:3000/produtosvendidos
+            name: listar
+            meta:
+              id: req_672268fb8916479ebcd911a37b715488
+              created: 1758288737142
+              modified: 1758290993441
+              isPrivate: false
+              description: ""
+              sortKey: -1758288737142
+            method: GET
+            headers:
+              - name: User-Agent
+                value: insomnia/11.5.0
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+          - url: http://localhost:3000/produtosvendidos
+            name: cadastrar
+            meta:
+              id: req_4ce7b91bbfdb4c0d8ab9bbe9f5e1f965
+              created: 1758290668910
+              modified: 1758291042793
+              isPrivate: false
+              description: ""
+              sortKey: -1758290668910
+            method: POST
+            headers:
+              - name: User-Agent
+                value: insomnia/11.5.0
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+          - url: http://localhost:3000/produtosvendidos/1
+            name: apagar
+            meta:
+              id: req_0a52f4028d1f4359b16cdd11d7c5b602
+              created: 1758291498432
+              modified: 1758292000894
+              isPrivate: false
+              description: ""
+              sortKey: -1758291498432
+            method: DELETE
+            headers:
+              - name: User-Agent
+                value: insomnia/11.5.0
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+      - name: Registrar pedidos
+        meta:
+          id: fld_51fd8cf5bc824ebab8101970216aadc3
+          created: 1758283982936
+          modified: 1758283982936
+          sortKey: -1758283982936
+          description: ""
+        children:
+          - url: http://localhost:3000/registrarpedidos
+            name: cadastrar
+            meta:
+              id: req_5930df50ffdc4420b776d1b814f50bd7
+              created: 1758290780117
+              modified: 1758290916706
+              isPrivate: false
+              description: ""
+              sortKey: -1758290780117
+            method: POST
+            headers:
+              - name: User-Agent
+                value: insomnia/11.5.0
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+          - url: http://localhost:3000/registrarpedidos
+            name: atualizar
+            meta:
+              id: req_43c4b2396c824b108e2343e8287e98b7
+              created: 1758290791779
+              modified: 1758292178355
+              isPrivate: false
+              description: ""
+              sortKey: -1758290791779
+            method: PATCH
+            headers:
+              - name: User-Agent
+                value: insomnia/11.5.0
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+          - url: http://localhost:3000/registrarpedidos
+            name: listar
+            meta:
+              id: req_45bfca0d7be34420a6ed34424163be19
+              created: 1758290799677
+              modified: 1758290886834
+              isPrivate: false
+              description: ""
+              sortKey: -1758290799677
+            method: GET
+            headers:
+              - name: User-Agent
+                value: insomnia/11.5.0
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+      - name: clientes
+        meta:
+          id: fld_e251bc20ede047588f863e481d101508
+          created: 1758289010773
+          modified: 1758289010773
+          sortKey: -1758289010773
+          description: ""
+        children:
+          - url: http://localhost:3000/clientes
+            name: buscar
+            meta:
+              id: req_87984cf30c854330972e77947c0c1c4d
+              created: 1758289020412
+              modified: 1758291702190
+              isPrivate: false
+              description: ""
+              sortKey: -1758289020412
+            method: GET
+            headers:
+              - name: User-Agent
+                value: insomnia/11.5.0
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+          - url: http://localhost:3000/clientes/1
+            name: buscar
+            meta:
+              id: req_7f942d4ae9144f599b24314a6183397e
+              created: 1758289595743
+              modified: 1758291927676
+              isPrivate: false
+              description: ""
+              sortKey: -1758289595743
+            method: GET
+            headers:
+              - name: User-Agent
+                value: insomnia/11.5.0
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+cookieJar:
+  name: Default Jar
+  meta:
+    id: jar_99d30891da4bdcebc63947a8fc17f076de878684
+    created: 1756466210782
+    modified: 1756466210782
+environments:
+  name: Base Environment
+  meta:
+    id: env_99d30891da4bdcebc63947a8fc17f076de878684
+    created: 1756466210698
+    modified: 1756466210698
+    isPrivate: false
